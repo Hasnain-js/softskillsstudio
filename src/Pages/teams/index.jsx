@@ -6,6 +6,7 @@ import teamPic3 from "../../images/yammna.jpeg"
 import teamPic4 from "../../images/hasnain.jpeg"
 import teamPic5 from "../../images/areeba.jpeg"
 import teamPic6 from "../../images/bhawaludin.jpeg"
+import teamPic7 from "../../images/mubashir.jpeg"
 export const Teams = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -202,7 +203,7 @@ export const Teams = () => {
 
                 <div className="shadow-2xl px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-teal-600 dark:border-gray-700 dark:hover:border-transparent">
                     <div className="flex flex-col sm:-mx-4 sm:flex-row">
-                        {/* <img className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" /> */}
+                        <img className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" src={teamPic7} alt="" />
 
                         <div className="mt-4 sm:mx-4 sm:mt-0">
                             <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white">Muhammad Mubashir</h1>
